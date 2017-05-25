@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang= "en-us">>
+<head>
+	 <meta charset=utf-8>
+
+	<title>Original Wu-Tang Kung Fu Masters</title>
+
+	<!--don't forget viewport-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">	
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+
+</head>
+
+<body>
+  <!-- Add navigation bar with restart button -->
+		<nav class="navbar navbar-inverse">
+
+		  <div class="container-fluid">
+		  
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavBar" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html">Original Wu-Tang Shaolin Kung Fu Masters | Restart |</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavBar">
+		      
+		    </div>
+		  </div>
+		</nav>
+
+ <!-- create pick characters section -->
+	<div class="content">
+		<div class="allCharacters">
+			<h3 class="center">Choose Your Kung-Fu Hero</h3>
+
+			<div class="pickCharacter center">
+				<div data-attack="7" data-counter="12" class="character center">
+					<p class="name">Method Man</p>
+					<img class="char" src="assets/images/methodman.jpg" alt="methodman">
+					<p>HP <span class="HP">150</span></p>
+				</div>
+				<div data-attack="5" data-counter="11"  class="character center">
+					<p class="name">Old Dirty Bastard</p>
+					<img class="char" src="assets/images/oldirtybastard.jpg" alt="oldirtybastard">
+					<p>HP <span class="HP">100</span></p>
+				</div>
+				<div data-attack="4" data-counter="9"  class="character center">
+					<p class="name">Ghostface Killer</p>
+					<img class="char" src="assets/images/ghostfacekiller.jpg" alt="ghostfacekiller">
+					<p>HP <span class="HP">120</span></p>
+				</div>
+				<div data-attack="3" data-counter="8" class="character center">
+					<p class="name">Genius</p>
+					<img class="char" src="assets/images/genius.jpg" alt="genius">
+					<p>HP <span class="HP">170</span></p>
+				</div>
+				<div data-attack="2" data-counter="10" class="character center">
+					<p class="name">The Chef</p>
+					<img class="char" src="assets/images/thechef.jpg" alt="thechef">
+					<p>HP <span class="HP">185</span></p>
+				</div>
+			</div>
+  <!-- create enemies to attack section -->
+			<div>
+				<h3 class="enemyH3 center">Choose Your Enemy Defender</h3>
+				<div class="EnemiesToAttack center">
+			</div>
+		</div>
+		</div>
+ <!--create fight area -->
+		<div class="battleArea center">
+			<div class="heroArea">
+				<h4 class="heroH4">Hero</h4>
+				<div class="YourChar">
+				</div>
+			</div>
+
+			<div class="defenderArea">
+				<h4>Defender</h4>
+				<div class="Defender">
+				</div>
+			</div>
+			<div class="buttons">
+				<button class="attackButton center">Attack</button>
+				<button class="restartButton center">Restart</button>
+			</div>
+
+			<div class="textArea">
+				<p class="fightInfo"></p>
+			</div>
+
+		</div>
+
+		
+	</div>
+ <!-- don't forget to add javascript jquery and bootstrap scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="assets/javascript/game.js"></script>
+
+
+
+</body>
+</html>
