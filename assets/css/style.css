@@ -1,0 +1,395 @@
+html {
+	height: 100%;
+}
+/*create background image*/ 
+body {
+	background-image: url("../images/shaolintemple5.jpg");
+	background-size: cover;
+	background-color: blue;
+}
+
+/*set h p a fonts*/
+h1, h2, h3, h4, p, a, .rightRight {
+	color: white;
+	font-family: myriad;
+	letter-spacing: 3px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 25px;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+h3 {
+	font-size: 23px;
+	padding-left: 25px;
+}
+
+p, h4 {
+	font-size: 18px;
+}
+
+p {
+	margin: 5px 0 15px;
+}
+
+/*style pickCharacter section*/
+
+.pickCharacter div {
+	display: inline-block;
+	height: 100px;
+	padding: 20px;
+
+}	
+
+.pickCharacter img {
+
+	height: 170px;
+	width: 150px;
+	text-align: center;
+	margin-right: 0px;
+}
+
+
+.pickCharacter > div > p {
+	color: #14c614;
+	text-align: center;
+	padding: 0;
+}
+/*style enemies to attack section*/
+.EnemiesToAttack div {
+	display: inline-block;
+	height: 100px;
+	padding: 20px;
+}
+
+.EnemiesToAttack > div > p{
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/*style your chosen fighter area*/
+.YourChar div {
+	padding: 15px;
+	width: 180px;
+	
+}
+
+.YourChar > div > img {
+	height: 165px;
+	width: 155px;
+}
+
+.YourChar > div > p {
+	color: #14c614;;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*style your chosen enemy area*/
+.Defender > div {
+	display: inline-block;
+	padding: 15px;
+	width: 180px;
+}
+
+
+.Defender > div > img {
+	height: 165px;
+	width: 155px;
+}
+
+.Defender > div > p {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+/*style buttons*/
+.attackButton, .restartButton, .enemyH3 {
+	display: none;
+	
+}
+
+
+.name {
+	
+	text-align: center;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+/*style battle area*/
+.battleArea {
+	margin: auto;
+	background: rgba(0, 0, 0, 0.4);
+	border: 2px solid blue;
+	width: 850px;
+}
+
+
+
+.allCharacters {
+	background: rgba(0,0,0,0.75);
+	float: right;
+	width: 480px;
+	height: relative;
+	opacity: 0.9;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 45px;
+	padding-bottom: 10px;
+}
+
+.allCharacters h3 {
+	padding-top: 15px;
+	text-align: left;
+}
+
+.battleArea {
+	width: 65%;
+	float: left;
+	padding: 20px;
+
+	height: 440px;
+	margin-bottom: 20px;
+}
+
+.textArea {
+	margin: auto;
+	border: 1px solid black;
+	display: none;
+	border: none;
+	text-align: center;
+	padding: 10px;
+}
+
+.character {
+	width: 150px;
+}
+
+.character img {
+	height: 100px;
+	width: 100px;
+}
+
+
+.heroArea {
+	float: left;
+	margin-left: 25%;
+	width: 180px;
+}
+
+.defenderArea {
+	float: right;
+	margin-right: 25%;
+	width: 180px;
+}
+
+button, a {
+	font-family: myriad;
+	font-size: 21px;
+}
+
+
+.buttons {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.char {
+	width: 100px;
+	border: 3px solid blue;
+}
+
+/*style nav brand color and font*/
+.navbar-brand {
+	
+	background: darkblue;
+	font-family: georgia;
+	font-size: 32px;
+}
+
+.container-fluid {
+    background: currentColor;
+}
+
+
+.abs {
+	width: 100%;
+	position: absolute;
+	display: none;
+}
+
+
+/*grabs special fonts*/
+@font-face {
+	
+	src: url("../fonts/DISTGRG_.ttf");
+}
+
+/* screen responsiveness*/
+@media screen and (max-width: 882px){
+	.allCharacters, .battleArea {
+		width: 500px;
+	}
+
+	.YourChar > div > img {
+		height: 80px;
+		width: 60px;
+	}
+
+	.Defender > div > img {
+		height: 100px;
+		width: 100px;
+	}
+
+	.character {
+
+		width: 150px;
+	}
+
+	.heroArea {
+		margin-left: 10%;
+		width: 180px
+	}
+
+	.defenderArea {
+		margin-right: 10%;
+		width: 180px;
+	}
+
+	.navbar-header {
+		background: darkblue;
+		
+	}
+
+	.navbar-toggle {
+		display: block;
+	}
+
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+
+	.navbar-nav {
+		float: none!important;
+		margin: 7.5px -15px;
+		overflow: hidden;
+	}
+
+	.navbar-nav li {
+		float: none;
+		text-align: center;
+	}
+
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.navbar-text {
+		float: none;
+		margin: 15px 0;
+	}
+
+
+	.navbar-collapse.collapse.in { 
+		display: block!important;
+	}
+
+	.collapsing {
+		overflow: hidden!important;
+	}
+
+}
+
+@media screen and (max-width: 640px){
+	.allCharacters, .battleArea {
+		width: 100%;
+	}
+
+	.character {
+		width: 139px;
+	}
+
+	.heroArea {
+		margin-right: 10%;
+		width: 140px;
+	}
+
+	.defenderArea {
+		margin-left: 10%;
+		width: 140px;
+	}
+
+	.navbar-brand {
+		font-size: 15px;
+	}
+
+	.YourChar div {
+		display: inline-block;
+		padding: 15px;
+		width: 150px;
+	}
+
+	.YourChar > div {
+		width: 140px;
+	}
+
+	.Defender > div {
+		width: 140px;
+	}
+
+	h2 {
+	font-size: 25px;
+	position: absolute;
+	left: 10px;
+	bottom: auto;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.heroArea {
+		margin-left: 1%;
+		width: 130px;
+	}
+
+	.defenderArea {
+		margin-right: 1%;
+		width: 130px;
+	}
+
+	.char {
+		width: 90px;
+	}
+	
+	p {
+		font-size: 15px;
+	}
+
+}
