@@ -6,7 +6,7 @@ This app utilizes: HTML, CSS, jQuery
 
 App link: https://chandrakellwan.github.io/WuTang-RolePlayingGame/
 
-
+![rpgscreen](https://user-images.githubusercontent.com/25890329/32693147-355cff0a-c6eb-11e7-8ba8-fe725e6745d1.png)
 
 ## How the game works:
 
