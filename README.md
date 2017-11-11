@@ -2,9 +2,9 @@
 
 WuTang-RPG is an interactive role-playing game for web browsers. The application dynamically updates the HTML pages with the jQuery library.
 
-This app utilizes: HTML, CSS, jQuery
-
 App link: https://chandrakellwan.github.io/WuTang-RolePlayingGame/
+
+This app utilizes: HTML, CSS, jQuery
 
 ![rpgscreen](https://user-images.githubusercontent.com/25890329/32693147-355cff0a-c6eb-11e7-8ba8-fe725e6745d1.png)
 
