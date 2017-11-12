@@ -30,7 +30,7 @@ This app utilizes: HTML, CSS, jQuery
 
 * The `Health Points`, `Attack Power` and `Counter Attack Power` of each character is different.
 
-* A winning player must pick their characters wisely by first fighting an enemy with low `Counter Attack Power`. This will allow them to    grind `Attack Power` and to take on enemies before they lose all of their `Health Points`.
+* A winning player must pick their characters wisely by first fighting an enemy with low `Counter Attack Power`. This will allow them to    grind `Attack Power` and to take on enemies before they lose all of their `Health Points(HP)`.
 
-* The player wins the game by defeating all enemy characters. The player loses the game the game if their character's `Health Points` fall to zero or below.
+* The player wins the game by defeating all enemy characters. The player loses the game if their character's `HP` falls to zero or below.
 
