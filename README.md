@@ -22,7 +22,7 @@ This app utilizes: HTML, CSS, jQuery
 
 * Each time the player attacks, their character's Attack Power increases by its base Attack Power. 
 
-* For example, if the base Attack Power is 6, each attack will increase the Attack Power by 6 (12, 18, 24, 30 and so on).
+* For example, if the base Attack Power is 6, each attack will increase the Attack Power by 6 (12, 18, 24, 30, and so on).
 
 * The enemy character only has `Counter Attack Power`. 
 
