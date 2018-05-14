@@ -34,7 +34,7 @@ This app utilizes:
 
 * Unlike the player's `Attack Points`, `Counter Attack Power` never changes.
 
-* The `Health Points`, `Attack Power` and `Counter Attack Power` of each character is different.
+* The `Health Points`, `Attack Power`, and `Counter Attack Power` of each character is different.
 
 * A winning player must pick their characters wisely by first fighting an enemy with low `Counter Attack Power`. This will allow them to    grind `Attack Power` and to take on enemies before they lose all of their `Health Points(HP)`.
 
